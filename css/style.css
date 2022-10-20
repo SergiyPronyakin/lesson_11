@@ -1,0 +1,182 @@
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	padding: 50px;
+}
+.body__container {
+	background: url(../img/road_3_1.png) 50% / cover no-repeat;
+	position: relative;
+	margin: 0 auto;
+	height: 800px;
+}
+.body__button {
+	position: absolute;
+	bottom: 0;
+	left: 1000px;
+	display: inline-block;
+	height: 44px;
+	line-height: 44px;
+	background-color: aquamarine;
+	border: 1px solid #000;
+	border-radius: 50px;
+	font-size: 30px;
+	color: blue;
+	padding: 0 20px;
+}
+.body__plane {
+	position: absolute;
+	top: 450px;
+	left: 100px;
+	max-width: 200px;
+	z-index: 2;
+}
+.body__plane img {
+	width: 100%;
+}
+.body__baloon {
+	max-width: 200px ;
+	height:	250px;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	opacity: 0.7;
+	z-index: 2;
+}
+.body__baloon img {
+	width: 100%;
+}
+.body__mountain {
+	max-width: 440px;
+	position:absolute;
+	left: 0px;
+	bottom: 110px;
+	z-index: 1;
+}
+.body__mountain img {
+	width: 100%;
+	border-radius: 0 300px 150px 0px;
+}
+.body__sun {
+	position: absolute;
+	max-width: 100px;
+	left: 900px;
+	top: 50px;
+	opacity: 0.7;
+	z-index: 1;
+}
+.body__sun img {
+	width: 100%;
+}
+.rally {
+	position: absolute;
+	right: 10px;
+	top: 385px;
+	max-width: 100px;
+}
+.rally img {
+	width: 100%;
+}
+.rally-car {
+	position: absolute;
+	max-width: 80px;
+	right: 90px;
+	top: 385px;
+}
+.rally-car img {
+	width: 100%;
+}
+.car {
+	position: absolute;
+	max-width: 300px;
+	height: 180px;
+	bottom: 10px;
+	left: 640px;
+	opacity: 0.9;
+}
+.car__part {
+	position: relative;
+	bottom: -10px;
+	max-width: 300px;
+	height:180px;
+	z-index: 2;
+}
+.car__part img {
+	position: relative;
+	width: 100%;
+}
+.car__window {
+	position: relative;
+	bottom: 160px;
+	left: 84px;
+	max-width: 155px;
+	height: 55px;
+	z-index: 2;
+}
+.car__window img {
+	width: 100%;
+}
+.car__window-two {
+	max-width: 50px;
+	height: 56px;
+	position: relative;
+	left: 45px;
+	bottom: 210px;
+	z-index: 1;
+}
+.car__window-two img {
+	width: 100%;
+	height: 100%;
+}
+.car__wheel-one {
+	max-width: 50px;
+	height:80px;
+	position: relative;
+	bottom: 190px;
+	left: 76px;
+	z-index: 2;
+}
+.car__wheel-one img {
+	width: 100%;
+	height: 100%;
+}	
+.car__wheel-two {
+	max-width: 40px;
+	height: 80px;
+	position: relative;
+	bottom: 280px;
+	left: 0;
+	z-index: 2;
+}
+.car__wheel-two img {
+	width: 100%;
+}
+.body__transport:hover .body__plane {
+	left: 1100px;
+	top: 350px;
+	transition: all 9s ease-in 0s;
+	opacity: 0;
+}
+.body__transport:hover .body__baloon {
+	top: 0px;
+	left: 1100px;
+	opacity: 0;
+	transition: all 10s ease-in 0s;
+}
+.body__transport:hover .body__sun {
+	left: 100px;
+	top: 490px;
+	opacity: 0;
+	transition: all 8s ease-in 0s;
+}
+.body__transport:hover .rally {
+	right: 50px;
+	top: 500px;
+	max-width: 25%;
+	transition: all 8s ease-in 0s;
+}
+.body__transport:hover .rally-car {
+	right: 150px;
+	top: 450px;
+	transition: all 10s ease-in 0s;
+}
